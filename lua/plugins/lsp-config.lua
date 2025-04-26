@@ -23,7 +23,7 @@ return {
 			lspconfig.ts_ls.setup({ capabilities = capabilities })
 			lspconfig.clangd.setup({ capabilities = capabilities })
 			lspconfig.html.setup({ capabilities = capabilities })
-			lspconfig.jinja_lsp.setup({ capabilities = capabilities, filetypes={ 'html', 'htmldjango' }})
+			lspconfig.jinja_lsp.setup({ capabilities = capabilities, lang={ 'python' }, filetypes={ 'html', 'htmldjango' }})
 			lspconfig.cssls.setup({ capabilities = capabilities })
 			lspconfig.ruff.setup({ capabilities = capabilities })
 			lspconfig.pyright.setup {

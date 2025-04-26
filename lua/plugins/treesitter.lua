@@ -8,7 +8,6 @@ return {
 			sync_install = false,
 			highlight = {
 				enable = true,
-				disable = { "html" },
 			},
 			indent = { enable = true },
 		})
